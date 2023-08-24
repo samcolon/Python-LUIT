@@ -1,0 +1,17 @@
+answer_a =  input('Do you like travelling? y/n: ')
+if answer_a == 'y':   
+   print('Good!')
+else:
+    print('Sorry to hear that!')
+    
+
+
+answer_a =  input('Do you like travelling? y/n: ')
+if answer_a == 'y':
+   answer_b = input('And do you like Asia? y/n: ')
+   if answer_b == 'y':
+       print('Excellent! You can win aa ticket to Thailand')
+   else:
+       print('Sorry to hear that')
+else:
+    print('Sorry to hear that!')
