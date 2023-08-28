@@ -11,7 +11,7 @@ __)(_||||  \__(_)| |_)
 |__\__ /__  | \|(_||||(-  \__)(-| )(-| (_||_(_)|                                                                                                                         
       ''')
 name_quantity = int(input('How many EC2 instances would you like to create names for? '))
-department_name = input('What department do you work for? ')
+department_name = input('What department do you work for? ').capitalize()
 
 for _ in range(name_quantity):
     random_numbers = random.randint(10000, 90000)
