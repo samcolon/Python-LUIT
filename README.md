@@ -4,6 +4,7 @@ Python Coding Exercises
 - - -
 
 -----Projects-----
+
 EC2 Name Generator - Use Python to create unique EC2 names that users can attach to instances.
 
 Foundational:
