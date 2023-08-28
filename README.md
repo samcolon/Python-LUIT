@@ -3,24 +3,13 @@
 Python Coding Exercises
 - - -
 
------Projects-----
+<h2>-----Projects-----</h2>
+**EC2 Name Generator** - Use Python to create unique EC2 names that users can attach to instances.
 
-EC2 Name Generator - Use Python to create unique EC2 names that users can attach to instances.
+Medium article can be found here: https://medium.com/@samuel.colon.jr/luit-project-10-creating-an-ec2-name-generator-via-python-be918537a740
 
-Foundational:
-1. All the user to input how many EC2 instances they want names for and output the same amount of unique names.
-2. Allow the user to input the name of their department that is used in the unique name.
-3. Generate random characters and numbers that will be included in the unique name.
+Tier 1 Foundational python file is EC2_Random_Generator_Fundamentals.py
 
-This code can be found in EC2_Random_Generator_Fundamentals.py
+Tier 2 Advanced python file is EC2_Random_Generator_Advanced.py
 
-Advanced:
-The only departments that should use this Name Generator are the Marketing, Accounting, and FinOps Departments. List these departments as options and if a user puts another department, print a message that they should not use this Name Generator.
-
-This code can be found in EC2_Random_Generator_Advanced.py
-
-Complex:
-
-Turn the above into a Function and execute the Function to verify it works.
-
-This code can be found in EC2_Random_Generator_Complex.py
+Tier 3 Complex python file is EC2_Random_Generator_Complex.py
