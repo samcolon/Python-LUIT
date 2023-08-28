@@ -11,7 +11,7 @@ __)(_||||  \__(_)| |_)
 |__\__ /__  | \|(_||||(-  \__)(-| )(-| (_||_(_)|                                                                                                                                                                
       ''')
 allowed_departments = ('Marketing', 'marketing', 'Accounting', 'accounting', 'FinOps', 'finops', 'Finops')
-department_name = input('What department do you work for? ')
+department_name = input('What department do you work for? ').capitalize()
 
 if department_name not in allowed_departments:
     print("Sorry, you are not allowed to use this EC2 name generator. Please contact I.T. for further info")
