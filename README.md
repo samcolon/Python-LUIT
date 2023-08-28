@@ -20,6 +20,7 @@ The only departments that should use this Name Generator are the Marketing, Acco
 This code can be found in EC2_Random_Generator_Advanced.py
 
 Complex:
+
 Turn the above into a Function and execute the Function to verify it works.
 
 This code can be found in EC2_Random_Generator_Complex.py
